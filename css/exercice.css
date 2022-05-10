@@ -33,7 +33,7 @@
   position: absolute;
   top: 0;
   left: 50%;
- transform: translate(-50%);
+  transform: translate(-50%);
 }
 /* 5. ABSOLUTE & TRANSFORM II */
 .exercice-absolute-transform-2 .sandbox {
@@ -44,20 +44,24 @@
 
 .exercice-absolute-transform-2 .block-blue{
   position: absolute;
-  top: 38%;
+  top: 50%;
+  transform: translateY(-50%);
   right: 0;
 }
 
 .exercice-absolute-transform-2 .block-red {
   position: absolute;
-  top: 38%;
-  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0; 
 }
 
 .exercice-absolute-transform-2 .block-black {
   position: absolute;
-  top: 38%;
-  right: 195px;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+
 }
 /* 6. ALL-IN */
 .exercice-all-in .sandbox {
@@ -68,9 +72,9 @@
 
 .exercice-all-in .block-black {
   position: absolute;
-  top: 38%;
-  right: 195px;
-  transform: rotate(45deg);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
 }
 
 .exercice-all-in .block-blue {
