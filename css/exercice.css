@@ -4,6 +4,9 @@
 }
 
 /* 2. TRANSFORM: TRANSLATE */
+.exercice-transform-translate .block-blue {
+  transform: TRANSLATE(100%);
+}
 
 /* 3. TRANSFORM: SCALE */
 
