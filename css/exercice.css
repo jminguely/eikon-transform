@@ -40,6 +40,13 @@
 }
 /* 6. ALL-IN */
 .exercice-all-in .block-blue {
-  transform: translateX(392px) translateY(103px);
-  /* transform: scale(2); */
+  transform: translateX(367px) translateY(77px) scale(2);
 }
+
+.exercice-all-in .block-black {
+transform: translateY(75px) translateX(196px) rotate(45deg);
+}
+
+.exercice-all-in .block-red {
+  transform: translateY(-100px);
+  }
