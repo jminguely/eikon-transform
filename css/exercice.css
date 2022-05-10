@@ -42,7 +42,7 @@
 
 /* 5. ABSOLUTE & TRANSFORM II */
 
-.exercice-absolute-transform-2 {
+.exercice-absolute-transform-2 .container{
   position: relative;
 }
 
@@ -71,3 +71,28 @@
 }
 
 /* 6. ALL-IN */
+
+.exercice-all-in .container {
+  position: relative;
+}
+
+.exercice-all-in .block-red {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.exercice-all-in .block-blue {
+  position: absolute;
+  bottom: 25px;
+  right: 25px;
+  transform: scale(2);
+}
+
+
+.exercice-all-in .block-black {
+  position: absolute;
+  left: 43%;
+  top: 38%;
+  transform: rotate(45deg);
+}
