@@ -32,7 +32,8 @@
 .exercice-absolute-transform .block-black {
   position: absolute;
   top: 0;
-  right: 195px;
+  left: 50%;
+ transform: translate(-50%);
 }
 /* 5. ABSOLUTE & TRANSFORM II */
 .exercice-absolute-transform-2 .sandbox {
