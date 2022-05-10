@@ -42,4 +42,32 @@
 
 /* 5. ABSOLUTE & TRANSFORM II */
 
+.exercice-absolute-transform-2 {
+  position: relative;
+}
+
+.exercice-absolute-transform-2 .block-blue {
+  position: absolute;
+  right: 0;
+  top: 38%;
+}
+
+.exercice-absolute-transform-2 .block-red {
+  position: absolute;
+  left: 0;
+  top: 38%;
+}
+
+.exercice-absolute-transform-2 .block-black {
+  position: absolute;
+  top: 38%;
+  left: 43%;
+}
+
+.exercice-absolute-transform-2 .block-red {
+  position: absolute;
+  left: 0;
+  top: 38%;
+}
+
 /* 6. ALL-IN */
