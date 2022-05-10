@@ -7,6 +7,9 @@
   transform: translate(50px);
 }
 /* 3. TRANSFORM: SCALE */
+.exercice-transform-scale .block-blue{
+  transform: scale(0.3);
+}
 
 /* 4. ABSOLUTE & TRANSFORM */
 
