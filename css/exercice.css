@@ -9,6 +9,9 @@
 }
 
 /* 3. TRANSFORM: SCALE */
+.exercice-transform-scale .block-blue {
+  transform: SCALE(50%);
+}
 
 /* 4. ABSOLUTE & TRANSFORM */
 
