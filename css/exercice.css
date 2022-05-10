@@ -1,11 +1,89 @@
 /* 1. TRANSFORM: ROTATE */
-
+.exercice-transform-rotate .sandbox .block-blue{
+  transform: rotate(50deg);
+}
 /* 2. TRANSFORM: TRANSLATE */
+.exercice-transform-translate .sandbox .block-blue{
+  transform: translate(100%, 0);
+}
 
 /* 3. TRANSFORM: SCALE */
-
+.exercice-transform-scale .sandbox .block-blue{
+  transform: scale(0.5);
+}
 /* 4. ABSOLUTE & TRANSFORM */
+.exercice-absolute-transform .sandbox{
+  position: relative;
+}
 
+.exercice-absolute-transform .sandbox .block-blue{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.exercice-absolute-transform .sandbox .block-red{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.exercice-absolute-transform .sandbox .block-black{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .sandbox{
+  position: relative;
+}
 
+.exercice-absolute-transform-2 .sandbox .block-blue,
+.exercice-absolute-transform-2 .sandbox .block-red,
+.exercice-absolute-transform-2 .sandbox .block-black{
+  position: absolute;
+  bottom: 50%;
+  transform: translate(0, 50%);
+}
+
+.exercice-absolute-transform-2 .sandbox .block-blue{
+  right: 0;
+}
+
+.exercice-absolute-transform-2 .sandbox .block-red{
+  left: 0;
+}
+
+.exercice-absolute-transform-2 .sandbox .block-black{
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
 /* 6. ALL-IN */
+
+.exercice-all-in .sandbox{
+  position: relative;
+}
+
+.exercice-all-in .sandbox .block-black,
+.exercice-all-in .sandbox .block-blue,
+.exercice-all-in .sandbox .block-red{
+  position: absolute;
+}
+
+.exercice-all-in .sandbox .block-black{
+  transform: translate(-50%, 50%) rotate(50deg);
+  left: 50%;
+  bottom: 50%;
+}
+
+.exercice-all-in .sandbox .block-red{
+  left: 0;
+  top: 0;
+}
+
+.exercice-all-in .sandbox .block-blue{
+  transform: scale(2);
+  transform-origin: 100% 100%;
+  right: 0;
+  bottom: 0;
+}
