@@ -12,6 +12,10 @@
 
 /* 3. TRANSFORM: SCALE */
 
+.exercice-transform-scale .block-blue {
+  transform: scale(0.5);
+}
+
 /* 4. ABSOLUTE & TRANSFORM */
 
 /* 5. ABSOLUTE & TRANSFORM II */
