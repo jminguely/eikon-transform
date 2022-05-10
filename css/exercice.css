@@ -2,9 +2,10 @@
 .exercice-transform-rotate .sandbox .block-blue{
   transform: rotate(50deg);
 }
-  
-
 /* 2. TRANSFORM: TRANSLATE */
+.exercice-transform-translate .sandbox .block-blue{
+  transform: translate(100%, 0);
+}
 
 /* 3. TRANSFORM: SCALE */
 
