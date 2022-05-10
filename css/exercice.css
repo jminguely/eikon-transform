@@ -52,3 +52,17 @@ top: 0;
 }
 
 /* 6. ALL-IN */
+.exercice-all-in .block-blue
+{
+  position: absolute;
+  right: 25px;
+  bottom: 25px;
+  transform: scale(2);
+}
+
+.exercice-all-in .block-black {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
