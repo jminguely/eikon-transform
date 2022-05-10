@@ -18,9 +18,26 @@
   align-items: flex-start;
   justify-content: space-between;
 }
-.exercice-absolute-transform.block-blue{
-  align-items: flex-end;
-}
+
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .sandbox{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+}
+
 
 /* 6. ALL-IN */
+.exercice-all-in{
+  display: flex;
+}
+.exercice-all-in .block-blue{
+  transform:translateX(367px) translateY(77px) scale(2);
+}
+.exercice-all-in .block-black{
+  transform:translateY(75px) translateX(196px) rotate(45deg);
+}
+.exercice-all-in .block-red{
+  transform: translateY(-100px);
+}
