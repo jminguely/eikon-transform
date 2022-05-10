@@ -11,7 +11,17 @@
   transform: scale(0.5);
 }
 /* 4. ABSOLUTE & TRANSFORM */
+.exercice-absolute-transform .block {
+  position: absolute;
+}
 
+.exercice-absolute-transform .block-blue {
+  transform: translate(392px);
+}
+
+.exercice-absolute-transform .block-black {
+  transform: translate(196px);
+}
 /* 5. ABSOLUTE & TRANSFORM II */
 
 /* 6. ALL-IN */
