@@ -28,15 +28,17 @@
 .exercice-absolute-transform-2 {
   position: relative;
 }
+
 .exercice-absolute-transform-2 .block {
   position: absolute;
   top: 50%;
+  transform: translate(0%,-50%);
 }
 
 .exercice-absolute-transform-2 .block-black {
   position: absolute;
   right: 50%;
-  transform: translate(50%);
+  transform: translate(50%,-50%);
 }
 
 .exercice-absolute-transform-2 .block-blue {
