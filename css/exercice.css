@@ -1,7 +1,7 @@
 /* 1. TRANSFORM: ROTATE */
 
 .exercice-transform-rotate .block-blue {
- transform: rotate(50deg);
+ transform: rotate(45deg);
 }
 
 /* 2. TRANSFORM: TRANSLATE */
@@ -18,6 +18,68 @@
 
 /* 4. ABSOLUTE & TRANSFORM */
 
+.exercice-absolute-transform{
+  position: relative;
+}
+
+.exercice-absolute-transform .block-black {
+  position: absolute;
+  top: 0;
+  transform: translate(350%);
+}
+
+.exercice-absolute-transform .block-blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 /* 5. ABSOLUTE & TRANSFORM II */
 
+.exercice-absolute-transform-2 {
+  position: relative;
+}
+
+.exercice-absolute-transform-2 .block-red {
+
+}
+
+.exercice-absolute-transform-2 .block-black {
+  
+  transform: translate(50%);
+}
+
+.exercice-absolute-transform-2 .block-blue {
+  position: absolute;
+  right: 0;
+}
+
+.exercice-absolute-transform-2 .block{
+  transform: translate(0, 150%);
+}
+
+
+
 /* 6. ALL-IN */
+
+.exercice-all-in {
+  position: relative;
+}
+
+.exercice-all-in .block-black {
+  transform: rotate(45deg) translate(175px, -70px);
+
+}
+
+.exercice-all-in .block-blue {
+  transform: scale(2.1) translate(-12px, -12px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.exercice-all-in .block-red {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
