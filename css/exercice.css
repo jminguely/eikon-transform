@@ -12,7 +12,15 @@
 }
 
 /* 4. ABSOLUTE & TRANSFORM */
-
+ .exercice-absolute-transform .sandbox{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.exercice-absolute-transform.block-blue{
+  align-items: flex-end;
+}
 /* 5. ABSOLUTE & TRANSFORM II */
 
 /* 6. ALL-IN */
