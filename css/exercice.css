@@ -3,7 +3,9 @@
   transform: rotate(50deg);
 }
 /* 2. TRANSFORM: TRANSLATE */
-
+.exercice-transform-translate .block-blue {
+  transform: translate(50px)
+}
 /* 3. TRANSFORM: SCALE */
 
 /* 4. ABSOLUTE & TRANSFORM */
