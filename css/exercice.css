@@ -25,7 +25,8 @@
 .exercice-absolute-transform .block-black {
   position: absolute;
   top: 0;
-  transform: translate(350%);
+  right: 50%;
+  transform: translate(50%);
 }
 
 .exercice-absolute-transform .block-blue {
@@ -41,22 +42,25 @@
 }
 
 .exercice-absolute-transform-2 .block-red {
-
+  transform: translate(0, 50%);
+  position: absolute;
+  bottom: 50%;
 }
 
 .exercice-absolute-transform-2 .block-black {
-  
-  transform: translate(50%);
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
 }
 
 .exercice-absolute-transform-2 .block-blue {
   position: absolute;
   right: 0;
+  bottom: 50%;
+  transform: translate(0, 50%);
 }
 
-.exercice-absolute-transform-2 .block{
-  transform: translate(0, 150%);
-}
 
 
 
@@ -67,8 +71,10 @@
 }
 
 .exercice-all-in .block-black {
-  transform: rotate(45deg) translate(175px, -70px);
-
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 38%;
+  right: 44%;
 }
 
 .exercice-all-in .block-blue {
