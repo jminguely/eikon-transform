@@ -54,3 +54,21 @@
   transform: translate(0%, 50%);
 }
 /* 6. ALL-IN */
+.exercice-all-in .container {
+  position: relative;
+}
+
+.exercice-all-in .block-blue {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  transform: scale(1.5);
+  transform-origin: 100% 100%;
+}
+
+.exercice-all-in .block-black {
+  position: absolute;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%) rotate(45deg);
+}
