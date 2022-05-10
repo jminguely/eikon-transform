@@ -6,7 +6,9 @@
 
 /* 2. TRANSFORM: TRANSLATE */
 
-.exercice-transform-tr
+.exercice-transform-translate .block-blue {
+  transform: translate(50px, 0%);
+}
 
 /* 3. TRANSFORM: SCALE */
 
