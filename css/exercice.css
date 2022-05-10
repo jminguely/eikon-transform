@@ -60,8 +60,9 @@
 
 .exercice-absolute-transform-2 .block-black {
   position: absolute;
-  top: 38%;
-  left: 43%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 .exercice-absolute-transform-2 .block-red {
@@ -93,7 +94,7 @@
 
 .exercice-all-in .block-black {
   position: absolute;
-  left: 43%;
-  top: 38%;
-  transform: rotate(45deg);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%) rotate(45deg);
 }
