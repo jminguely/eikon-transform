@@ -44,4 +44,26 @@
   right: 0;
 }
 
-/* 6. ALL-IN */
+.exercice-all-in {
+  position: relative;
+}
+
+.exercice-all-in .block-red {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: scale(0.5);
+}
+
+.exercice-all-in .block-black {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: rotate(45deg) scale(0.5) translate(-200%, -50%);
+}
+.exercice-all-in .block-blue{
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  transform: scale(1.5);
+}
