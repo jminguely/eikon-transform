@@ -1,9 +1,11 @@
 /* 1. TRANSFORM: ROTATE */
-.block-blue{
+.exercice-transform-rotate .block-blue{
   transform: rotate(45deg);
 }
 /* 2. TRANSFORM: TRANSLATE */
-
+.exercice-transform-translate .block-blue{
+  transform: translate(50px);
+}
 /* 3. TRANSFORM: SCALE */
 
 /* 4. ABSOLUTE & TRANSFORM */
