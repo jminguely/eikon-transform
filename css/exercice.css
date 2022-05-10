@@ -59,3 +59,31 @@
   transform: translate(-50%, 50%);
 }
 /* 6. ALL-IN */
+
+.exercice-all-in .sandbox{
+  position: relative;
+}
+
+.exercice-all-in .sandbox .block-black,
+.exercice-all-in .sandbox .block-blue,
+.exercice-all-in .sandbox .block-red{
+  position: absolute;
+}
+
+.exercice-all-in .sandbox .block-black{
+  transform: translate(-50%, 50%) rotate(50deg);
+  left: 50%;
+  bottom: 50%;
+}
+
+.exercice-all-in .sandbox .block-red{
+  left: 0;
+  top: 0;
+}
+
+.exercice-all-in .sandbox .block-blue{
+  transform: scale(2);
+  transform-origin: 100% 100%;
+  right: 0;
+  bottom: 0;
+}
