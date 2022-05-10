@@ -1,4 +1,8 @@
 /* 1. TRANSFORM: ROTATE */
+.exercice-transform-rotate .sandbox .block-blue{
+  transform: rotate(50deg);
+}
+  
 
 /* 2. TRANSFORM: TRANSLATE */
 
