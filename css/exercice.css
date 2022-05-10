@@ -6,12 +6,24 @@
   transform: translate(100%,0);
 }
 
-/* 3. TRANSFORM: SCALE */
 .exercice-transform-scale .block-blue {
   transform: scale(0.5);
 }
 
-/* 4. ABSOLUTE & TRANSFORM */
+.exercice-absolute-transform {
+  position: relative;
+}
+
+.exercice-absolute-transform .block-black {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%);
+}
+
+.exercice-absolute-transform .block-blue {
+  position: absolute;
+  right: 0;
+}
 
 /* 5. ABSOLUTE & TRANSFORM II */
 
