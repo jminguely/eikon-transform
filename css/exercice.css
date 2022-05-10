@@ -84,8 +84,9 @@
 
 .exercice-all-in .block-blue {
   position: absolute;
-  bottom: 25px;
-  right: 25px;
+  bottom: 0;
+  right: 0;
+  transform-origin: right bottom;
   transform: scale(2);
 }
 
