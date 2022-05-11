@@ -4,10 +4,12 @@
 }
 /* 2. TRANSFORM: TRANSLATE */
 .exercice-transform-translate  .block-blue {
-  transform: translate(50px);
+  transform: translate(100%);
 }
 /* 3. TRANSFORM: SCALE */
-
+.exercice-transform-scale  .block-blue {
+  transform: scale(0.5);
+}
 /* 4. ABSOLUTE & TRANSFORM */
 
 /* 5. ABSOLUTE & TRANSFORM II */
