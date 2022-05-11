@@ -1,6 +1,6 @@
 /* 1. TRANSFORM: ROTATE */
 .exercice-transform-rotate .block-blue {
-  transform: rotate(50deg);
+  transform: rotate(46deg);
 }
 /* 2. TRANSFORM: TRANSLATE */
 .exercice-transform-translate .block-blue {
@@ -52,3 +52,23 @@
   left: 0px;
 }
 /* 6. ALL-IN */
+
+.exercice-all-in .container{
+  position: relative;
+}
+  
+.exercice-all-in .block-black{
+  position: absolute;
+  top: 76px;
+  right: 50%;
+  transform: translate(25px) rotate(46deg);
+ }
+  
+.exercice-all-in .block-blue{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  transform: scale(2);
+  transform-origin: 100% 100%;
+}
+
