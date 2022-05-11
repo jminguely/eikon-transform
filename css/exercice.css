@@ -57,3 +57,21 @@
   transform: translate(0,-50%);
 }
 /* 6. ALL-IN */
+.exercice-all-in .container {
+  position: relative;
+}
+
+.exercice-all-in .block-blue {
+  transform: scale(2);
+  transform-origin: 100% 100%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.exercice-all-in .block-black {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%,-50%) rotate(45deg);
+}
