@@ -24,9 +24,31 @@
 
 .exercice-absolute-transform .block-blue{
   position: absolute;
-  top: 0px;
+  top: 76px;
   right: 0px;
 }
 /* 5. ABSOLUTE & TRANSFORM II */
 
+.exercice-absolute-transform-2 .container{
+  position: relative;
+}
+
+.exercice-absolute-transform-2 .block-black{
+  position: absolute;
+  top: 76px;
+  right: 50%;
+  transform: translate(25px);
+}
+
+.exercice-absolute-transform-2 .block-blue{
+  position: absolute;
+  top: 76px;
+  right: 0px;
+}
+
+.exercice-absolute-transform-2 .block-red{
+  position: absolute;
+  top: 76px;
+  left: 0px;
+}
 /* 6. ALL-IN */
