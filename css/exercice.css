@@ -47,3 +47,22 @@
   right: 0;
 }
 /* 6. ALL-IN */
+.exercice-all-in .container {
+  position: relative;
+}
+
+.exercice-all-in .block {
+  position: absolute;
+}
+
+.exercice-all-in .block-black {
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%) rotate(45deg);
+}
+
+.exercice-all-in .block-blue {
+  right: 0;
+  bottom: 0;
+  transform: scale(2) translate(-25%, -25%);
+}
