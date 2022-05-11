@@ -27,5 +27,21 @@
   position: absolute;
 }
 /* 5. ABSOLUTE & TRANSFORM II */
-
+.exercice-absolute-transform-2 .container {
+  position: relative;
+}
+.exercice-absolute-transform-2 .block-black {
+  position: absolute;
+  right: 50%;
+  transform: translate(50%, 150%);
+}
+.exercice-absolute-transform-2 .block-blue {
+  position: absolute;
+  right: 0;
+  transform: translate(0%, 150%);
+}
+.exercice-absolute-transform-2 .block-red {
+  position: absolute;
+  transform: translate(0%, 150%);
+}
 /* 6. ALL-IN */
