@@ -1,11 +1,91 @@
 /* 1. TRANSFORM: ROTATE */
 
+.exercice-transform-rotate .block-blue {
+ transform: rotate(45deg);
+}
+
 /* 2. TRANSFORM: TRANSLATE */
+
+.exercice-transform-translate .block-blue {
+  transform: translate(50px)
+}
 
 /* 3. TRANSFORM: SCALE */
 
+.exercice-transform-scale .block-blue {
+  transform: scale(0.5);
+}
+
 /* 4. ABSOLUTE & TRANSFORM */
+
+.exercice-absolute-transform{
+  position: relative;
+}
+
+.exercice-absolute-transform .block-black {
+  position: absolute;
+  top: 0;
+  right: 50%;
+  transform: translate(50%);
+}
+
+.exercice-absolute-transform .block-blue {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
 
 /* 5. ABSOLUTE & TRANSFORM II */
 
+.exercice-absolute-transform-2 {
+  position: relative;
+}
+
+.exercice-absolute-transform-2 .block-red {
+  transform: translate(0, 50%);
+  position: absolute;
+  bottom: 50%;
+}
+
+.exercice-absolute-transform-2 .block-black {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+.exercice-absolute-transform-2 .block-blue {
+  position: absolute;
+  right: 0;
+  bottom: 50%;
+  transform: translate(0, 50%);
+}
+
+
+
+
 /* 6. ALL-IN */
+
+.exercice-all-in {
+  position: relative;
+}
+
+.exercice-all-in .block-black {
+  transform: rotate(45deg);
+  position: absolute;
+  bottom: 38%;
+  right: 44%;
+}
+
+.exercice-all-in .block-blue {
+  transform: scale(2.1) translate(-12px, -12px);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.exercice-all-in .block-red {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
