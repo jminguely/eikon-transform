@@ -1,11 +1,52 @@
 /* 1. TRANSFORM: ROTATE */
-
+.exercice-transform-rotate .block-blue {
+  transform: rotate(45deg);
+}
 /* 2. TRANSFORM: TRANSLATE */
-
+.exercice-transform-translate .block-blue {
+  transform: translate(50px);
+}
 /* 3. TRANSFORM: SCALE */
-
+.exercice-transform-scale .block-blue {
+  transform: scale(0.5);
+}
 /* 4. ABSOLUTE & TRANSFORM */
+.exercice-absolute-transform .block {
+  position: absolute;
+}
 
+.exercice-absolute-transform .block-blue {
+  transform: translate(392px);
+}
+
+.exercice-absolute-transform .block-black {
+  transform: translate(196px);
+}
 /* 5. ABSOLUTE & TRANSFORM II */
+.exercice-absolute-transform-2 .block {
+  position: absolute;
+}
 
+.exercice-absolute-transform-2 .block-blue {
+  transform: translateX(392px) translateY(75px);
+}
+
+.exercice-absolute-transform-2 .block-red {
+  transform: translateY(75px);
+}
+
+.exercice-absolute-transform-2 .block-black {
+  transform: translateY(75px) translateX(196px);
+}
 /* 6. ALL-IN */
+.exercice-all-in .block-blue {
+  transform: translateX(367px) translateY(77px) scale(2);
+}
+
+.exercice-all-in .block-black {
+transform: translateY(75px) translateX(196px) rotate(45deg);
+}
+
+.exercice-all-in .block-red {
+  transform: translateY(-100px);
+  }
